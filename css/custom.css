@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+}
+.navbar:first-of-type{
+    background-color: #16BA0A;
+  }
+  .input-group-text{
+    background-color: #16BA0A;
+    color: white;
+  }
+  .position-relative span{
+    bottom: 350px;
+    left: 600px;
+    font-size: 100px;
+  }
+  .position-relative button{
+    bottom: 250px;
+    left: 900px;
+  }
+  .position1 span{
+    top: 150px;
+    left: 850px;
+  }
+  .paragraph{
+    bottom: 220px;
+    left: 420px;
+    width: 60%;
+    font-size: 19px;
+  }
+  .masthead{
+    min-height: 70vh;
+    background-size: cover;
+    font-size:100px;
+    position: relative;
+  }
+  .about_foods{
+    min-height: 20vh; 
+    background-size: cover;
+    position: relative;
+  }
+  .masthead .container{
+    overflow: hidden;
+  }
+
+  .masthead .position2{
+    position: absolute;
+    margin-top: 60px;
+  }
+  .btn_pos{
+    margin-left: -120px;
+    margin-top: 280px;
+  }
+  .food_head{
+    font-size: 60px;
+  }
+  @media screen and (min-width: 1000px) {
+    .masthead .position2{
+      margin-left: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .masthead .position2{
+      margin-right: 50px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .btn_pos{
+      margin-top: 300px;
+      margin-left: -120px;
+    };
+  } 
+  @media screen and (max-width: 920px){
+    .btn_pos{
+      /* margin-top: 450px; */
+      font-size: 20px;
+      margin-left: -80px;
+    }
+  }
+  @media screen and (max-width: 998px){
+    .masthead .position2{
+      margin-left: 80px;
+      font-size: 60px;
+    }
+  }
+  @media screen and (max-width: 998px){
+    .btn_pos{
+      margin-top: 400px;
+    }
+  }
+  @media screen and (min-width: 1700px){
+    .food_card{margin-left: 50px;}
+  }
+  
+  @media screen and (min-width: 992px) and (max-width:1200px){
+    .food_card{margin-left: 180px;}
+  }
+
+  @media screen and (min-width: 885px) and (max-width:992px){
+    .food_card{
+      margin-left: 180px;
+    }
+  }
+  @media screen and (min-width: 710px) and (max-width:885px){
+    .food_card{
+      margin-left: 120px;
+    }
+  }
+  @media screen and (min-width: 510px) and (max-width:710px){
+    .food_card{
+      margin-left: 120px;
+    }
+  }
+  @media screen and (max-width: 510px){
+    .food_card{
+      margin-left: 70px;
+    }
+  }
+  @media screen and (max-width: 560px){
+    .food_head{
+      font-size: 40px;
+    }
+  }
