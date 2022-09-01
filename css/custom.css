@@ -61,6 +61,9 @@ body{
     margin-left: 200px;
   }
 
+  .hamburger{
+    margin-right: 29px;
+  }
   @media screen and (min-width: 400px) and (max-width:770px){
   .masthead .position2 .modify_btn{
     font-size: 10px;
@@ -148,22 +151,34 @@ body{
       font-size: 60px;
     }
   } */
-  @media screen and (max-width: 3000px){
+  @media screen and (min-width: 1500px) and (max-width: 3000px){
     .food_card{margin-left: 250px;}
   }
   
-  @media screen and (min-width: 992px) and (max-width:1200px){
-    /* .food_card{margin-left: 150px;} */
+  /* @media screen and (min-width: 768px) and (max-width:1500px){
+    .food_card{margin-left: 150px;}
+  } */
+
+  @media screen and (min-width: 1100px) and (max-width:1500px){
+    .food_card{
+      margin-left: 155px;
+    }
+  }
+
+  @media screen and (min-width: 992px) and (max-width:1100px){
+    .food_card{
+      margin-left: 120px;
+    }
   }
 
   @media screen and (min-width: 885px) and (max-width:992px){
     .food_card{
-      margin-left: 180px;
+      margin-left: 115px;
     }
   }
   @media screen and (min-width: 710px) and (max-width:885px){
     .food_card{
-      margin-left: 120px;
+      margin-left: 110px;
     }
   }
   @media screen and (min-width: 510px) and (max-width:710px){
