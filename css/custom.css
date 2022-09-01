@@ -1,5 +1,15 @@
 body{
     width: 100%;
+    overflow-x: hidden;
+}
+/* .row{
+  margin-right: 20px;
+  margin-left: 0;
+} */
+
+.container{
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .navbar:first-of-type{
     background-color: #16BA0A;
@@ -44,18 +54,54 @@ body{
 
   .masthead .position2{
     position: absolute;
-    margin-top: 60px;
+    margin-top: 15px;
   }
+
+  .food_card{
+    margin-left: 200px;
+  }
+
+  @media screen and (min-width: 400px) and (max-width:770px){
+  .masthead .position2 .modify_btn{
+    font-size: 10px;
+    width: 10%;
+  }
+}
   .btn_pos{
-    margin-left: -120px;
+    margin-left: -90px;
     margin-top: 280px;
   }
   .food_head{
     font-size: 60px;
   }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1200px) {
     .masthead .position2{
-      margin-left: 80px;
+      margin-left: 145px;
+    }
+  }
+
+  @media screen and (min-width: 990px) and (max-width:1200px){
+    .masthead .position2{
+      font-size: 85px;
+      margin-left: 104px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width:990px){
+    .masthead .position2{
+      font-size: 70px;
+      margin-left: 32px;
+    }
+  }
+  @media screen and (min-width: 400px) and (max-width:768px){
+    .masthead .position2{
+      font-size: 55px;
+      margin-left: 10px;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width:400px){
+    .masthead .position2{
+      font-size: 40px;
+      margin-left: 22px;
     }
   }
   
@@ -70,30 +116,44 @@ body{
       margin-left: -120px;
     };
   } 
-  @media screen and (max-width: 920px){
+  @media screen and (min-width: 450px) and (max-width: 920px){
     .btn_pos{
       /* margin-top: 450px; */
-      font-size: 20px;
-      margin-left: -80px;
+      font-size: 15px;
+      margin-left: -45px;
     }
   }
-  @media screen and (max-width: 998px){
+  @media screen and (max-width: 450px){
+    .btn_pos{
+      /* margin-top: 450px; */
+      font-size: 12px;
+      margin-left: -32px;
+    }
+  }
+  @media screen and (max-width: 998px) {
+    .btn_pos{
+      margin-top: 257px;
+    }
+  }
+
+  @media screen and (max-width: 900px),screen and (max-height: 450px){
+    .btn_pos{
+      border: 2px solid black;
+      margin-top: 200px;
+    }
+  }
+  /* @media screen and (max-width: 998px){
     .masthead .position2{
       margin-left: 80px;
       font-size: 60px;
     }
-  }
-  @media screen and (max-width: 998px){
-    .btn_pos{
-      margin-top: 400px;
-    }
-  }
+  } */
   @media screen and (min-width: 1700px){
     .food_card{margin-left: 50px;}
   }
   
   @media screen and (min-width: 992px) and (max-width:1200px){
-    .food_card{margin-left: 180px;}
+    /* .food_card{margin-left: 150px;} */
   }
 
   @media screen and (min-width: 885px) and (max-width:992px){
